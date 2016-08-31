@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText2"
+        android:layout_gravity="center_horizontal"
+        android:text="Вопрос 1"
+        android:textIsSelectable="false"
+        android:textSize="20dp"
+        android:password="false"
+        android:singleLine="false"
+        android:selectAllOnFocus="false"
+        android:scrollIndicators="none"
+        android:phoneNumber="false"
+        android:gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:layout_gravity="center_horizontal"
+        android:text="Можно ли открыть счет в банке по нотариальной доверенности?"
+        android:textSize="30dp"
+        android:gravity="center_horizontal" />
+</LinearLayout>
